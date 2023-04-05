@@ -162,7 +162,7 @@ class ImageAutomation:
 
         y_axis_p2 = self.driver.find_element(By.ID, "y-axis-p2")
         y_axis_p2.clear()
-        x_axis_p2.send_keys(f"{self.yAxisValue_p2}")
+        y_axis_p2.send_keys(f"{self.yAxisValue_p2}")
         
         #Clicking on the required points:
         for coor in self.clickedPoints:
